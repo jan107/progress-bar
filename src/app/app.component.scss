@@ -1,0 +1,33 @@
+ul {
+  display: flex;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  flex: 1;
+  text-align: center;
+}
+
+.menu {
+  margin-top: -30px;
+  margin-bottom: 20px;
+  a {
+    margin-left: 1em;
+    margin-right: 1em;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+  }
+  .active-link {
+    text-decoration: underline;
+  }
+}
+::ng-deep .root-progress-bar {
+  .ng-bar-placeholder {
+    background-color: lightgray;
+  }
+  .ng-bar {
+    background: linear-gradient(to right, #F11712, #0099F7);
+  }
+}
